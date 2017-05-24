@@ -16,11 +16,11 @@ describe User do
     user.should_not be_valid
     user.rut = "67.124.556-8"
     user.should_not be_valid
-    user.rut = "16329351.-K"
+    user.rut = "16329351-3"
     user.should_not be_valid
     user.rut = nil
     user.should_not be_valid
-    user.rut = 63544558
+    user.rut = 106095605
     user.should_not be_valid
   end
 end
